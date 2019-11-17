@@ -54,7 +54,7 @@ server.servlet.context-path=/context-path
 
 See [Swagger-UI](http://localhost:8080/swagger-ui.html)
 
-####Put Left Diff Part
+#### Put Left Diff Part
 
 `PUT /v1/diff/{id}/left`
 
@@ -75,7 +75,7 @@ Content-Length: 0
 Response code: 201; Time: 556ms; Content length: 0 bytes
 ````
 
-####Put Right Diff Part
+#### Put Right Diff Part
 
 `PUT /v1/diff/{id}/right`
 
@@ -95,7 +95,7 @@ Content-Length: 0
 <Response body is empty>
 Response code: 201; Time: 556ms; Content length: 0 bytes
 ````
-####Get Diff Results
+#### Get Diff Results
 `GET /v1/diff/{id}`
 
 Gets the results of the diff associated to the given {id}
