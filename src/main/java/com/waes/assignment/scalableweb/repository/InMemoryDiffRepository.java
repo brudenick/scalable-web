@@ -9,6 +9,9 @@ import java.util.concurrent.ConcurrentHashMap;
 @Repository
 public class InMemoryDiffRepository implements DiffRepository {
 
+    /**
+     * Concurrent diffs map, which uses the diff id as {@code key}.
+     */
     private final Map<Long, Diff> diffsMap = new ConcurrentHashMap<>();
 
     @Override

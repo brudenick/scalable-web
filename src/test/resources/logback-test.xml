@@ -1,0 +1,6 @@
+<configuration>
+    <appender name="static-appender" class="com.waes.StaticAppender"/>
+    <root level="debug">
+        <appender-ref ref="static-appender"/>
+    </root>
+</configuration>

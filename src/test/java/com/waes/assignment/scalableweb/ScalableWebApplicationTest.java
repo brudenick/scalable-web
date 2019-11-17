@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScalableWebApplicationTests {
+class ScalableWebApplicationTest {
 
     @Test
     void contextLoads() {

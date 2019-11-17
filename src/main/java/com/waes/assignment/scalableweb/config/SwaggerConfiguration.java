@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * Configuration class with common beans definitions and properties values.
  */
 @Configuration
-public class ScalableWebConfig {
+public class SwaggerConfiguration {
 
     /**
      * Title for the REST API documentation.

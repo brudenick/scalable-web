@@ -1,0 +1,12 @@
+{
+  "firstName": "Lorem",
+  "lastName": "Ipsum",
+  "isAlive": true,
+  "age": 123,
+  "address": {
+    "streetAddress": "Random Street",
+    "city": "Los Angeles",
+    "state": "CA",
+    "postalCode": "12345-6789"
+  }
+}

@@ -18,8 +18,10 @@ public class ValidJsonValidator implements ConstraintValidator<ValidJsonConstrai
     @Override
     public boolean isValid(final byte[] content, final ConstraintValidatorContext context) {
         try {
-            if (objectMapper.readTree(Base64.decodeBase64(content)).isEmpty()){
-                return false;
+            if (Base64.isBase64(content)) {
+                objectMapper.readTree(Base64.decodeBase64(content));
+            } else {
+                objectMapper.readTree(content);
             }
             return true;
         } catch (IOException e) {

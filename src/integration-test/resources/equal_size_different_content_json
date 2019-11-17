@@ -1,0 +1,12 @@
+{
+  "firstName": "Mike",
+  "lastName": "Doe",
+  "isAlive": false,
+  "age": 99,
+  "address": {
+    "streetAddress": "21 1st Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3199"
+  }
+}
